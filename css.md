@@ -17,7 +17,7 @@ notes on why using id in your css?????
 
  You should use classes and element selector.
  
-You can group selector by putting a "," comma in between.
+You can group selector by putting a "," comma in between
 
 which ever {} element is used last css will be apllied.
 Specificty can over ride it. t
@@ -43,3 +43,8 @@ why it is important contrast?
   The color palettes can help you pick out color to put in your css. 
    It is important to contrast because if its to faded then your background it will be hard to see.
    If the colors are to bright and it will clash to were it will make your website hard to read.
+
+
+
+h2Chapter -4h2
+before dave covers the css reset commit 
