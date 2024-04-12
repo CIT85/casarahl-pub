@@ -19,3 +19,16 @@ notes on why using id in your css?????
  
 You can group selector by putting a "," comma in between.
 
+which ever {} element is used last css will be apllied.
+Specificty can over ride it. t
+
+The "." class overules other element Because it has more specifcity than an element selector. This class is not an inheritance class/element.
+
+Inheritance is when another element inheritance the setting or the property from their parent element. 
+body element is parent to all other element on css
+Anything related to color inhernit size font is inheritance
+ what is DRY?
+ Inheritance keeps the code from getting dry which is Dont repeat yourself 
+ ELEMENT SELECTOR.. is lest specfic and class selector is more  specific.
+  dont use !important flag because it will overrides everything and it looks unorganize and sloppy.
+  
