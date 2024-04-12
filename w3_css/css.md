@@ -31,4 +31,15 @@ Anything related to color inhernit size font is inheritance
  Inheritance keeps the code from getting dry which is Dont repeat yourself 
  ELEMENT SELECTOR.. is lest specfic and class selector is more  specific.
   dont use !important flag because it will overrides everything and it looks unorganize and sloppy.
-  
+
+  note the different way to specificy color?
+  You can specify color by using visual code auto just typing backgroundand colors
+  you can also use color: rgb(0,0,12) (u can choose the numbers) also rgb is red,green,blue choosing the number will choose the color out of those three.
+  or you can use color: rgba which is kinda the same thing just added a color 
+  Another form is hex= color: #ff0000 which is something to learn in the future.
+ 
+why it is important contrast?
+ hsl mean Hues-Saturation-Lightness
+  The color palettes can help you pick out color to put in your css. 
+   It is important to contrast because if its to faded then your background it will be hard to see.
+   If the colors are to bright and it will clash to were it will make your website hard to read.
