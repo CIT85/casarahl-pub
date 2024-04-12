@@ -1,5 +1,27 @@
-p{
-    font-size: 64px;
-    color:purple;
+
+
+body{
+    font-size: 22px;
 }
 
+h1, h2 {
+    color: blue;
+}
+
+p{
+    color: purple;
+}
+
+.hightlight {
+    text-transform: uppercase;
+    background-color: gold;
+}
+
+.gray {
+    color: gray;
+}
+
+#second {
+    font-size: italic;
+
+}

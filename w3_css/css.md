@@ -11,3 +11,11 @@ Property value helps to choose one out of many possible appearances for a proper
 Note that there are different types of selectors you can use.
 
 
+notes on why using id in your css?????
+ Id should only exist ONCE in a html they should be unique.
+ Its not good practice id in your css.
+
+ You should use classes and element selector.
+ 
+You can group selector by putting a "," comma in between.
+
