@@ -48,3 +48,15 @@ why it is important contrast?
 
 h2Chapter -4h2
 before dave covers the css reset commit 
+
+
+
+
+h1w4/cssh1
+rem=font size of the root element
+Dont set font size for html root element let the browser auto set it
+
+If using just em and not rem it will make the pixel larger. 
+ use rem on font size the em doesnt look at parents it looks at the element
+ ch helps define columns in late outs
+
