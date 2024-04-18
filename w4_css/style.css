@@ -1,7 +1,7 @@
 body {
     padding: 10%;
-    font-size: 2rem;
-  
+    font-size: 2rem;  
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 
 }
 
@@ -9,15 +9,19 @@ body {
     font: inherit;
 } */
 
+/* p {
+    font-weight: 500;
+    line-height: 1.5;
+    font-style: italic;
 
+} */
 
-p {
-    
+/* p { 
+    line-height: 1.5;
+letter-spacing: 0.1em;
+word-spacing: 0.1em;
 }
-
-
-
-
+ */
 
 /* p {
     text-decoration: none;

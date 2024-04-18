@@ -73,6 +73,10 @@ click styles and then computed to see the box model pixels to see exactly whats 
 Its good to use the default styles that are set and then go back and change what you need to change. 
 
 
+h2font family/fallback/quotesh2
+
+When choosing a font family if it cant find the first choose it will has suggested font that it will choose as a fall back.
+
 
 
 
