@@ -78,8 +78,22 @@ h2font family/fallback/quotesh2
 When choosing a font family if it cant find the first choose it will has suggested font that it will choose as a fall back.
 
 
+h2hyperlinkh2
 
+before visting the link it is blue 
+after visitng the link its purple
+you want your hyperlink to stand out 
 
+h3psudeo class and specificityh3
+ psuedeo represent the current state of the element like if its been visited or not
+ 
+ the anchor element with a psudeo has more specificity than the element or others.
+ also one can over ride the others have it in the right order 
+
+ anchor tag  
+visited class 
+hover class
+active class
 
 
 
