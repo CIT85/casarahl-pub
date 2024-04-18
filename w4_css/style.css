@@ -1,27 +1,13 @@
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
+    box-sizing: content-box;
 }
 
-body {
-    min-height: 100vh;
-}
 
 h1 {
     border: 2px dashed red;
-    width: 50%;
-    font-size: 3rem;
-    padding: 0.5em;
-}
-
-main {
-    
-    font: 2rem;
-   
-}
-
-p {
+    width: ;
     font-size: 2rem;
-    width: 40ch;
+    padding: 0.5em; 
 }
