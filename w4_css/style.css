@@ -8,17 +8,15 @@ body {
 
 
 a {
-    text-decoration: none;
-    cursor: pointer;
-    color: blue;
+    color: hsl(207, 44%, 49%);
 }
 
 a:visited {
     color: purple;
 } 
 
-a:hover {
-    color: dodgerblue;
+a:hover, a:focus{
+    color:  hsl(189, 44%, 49%);
 }
 
 a:active {
