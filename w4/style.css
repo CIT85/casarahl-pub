@@ -1,0 +1,38 @@
+
+body { background-color:#63a46cff;}
+ 
+h2{ color: azure;
+
+ }
+
+table {
+    font-family: arial, sans-serif;
+    color: azure;
+    border-collapse: collapse;
+    width: 100%;
+  }
+th {
+    color: azure;
+}
+  
+  td {
+    border: 1px solid rgb(83, 69, 3);
+    text-align: left;
+    padding: 8px;
+  }
+
+  th{
+    background-color:rgb(83, 57, 0);
+    
+  }
+
+  tr {
+    background-color:rgb(135, 220, 145);
+  }
+  
+  tr:nth-child(even) {
+    background-color:#63d471ff;
+  }
+
+  
+  
