@@ -1,4 +1,40 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
 @import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
 
 body {
@@ -24,15 +60,16 @@ ul{
     inside; */
 }
 
-ul li:nth-child(even) {
+/*ul li:nth-child(even) {
     color: red;
 
-}
+}*/
 
-ul ::marker {
+/*ul ::marker {
 color: red;
 font-family: fantasy;
 font-size: 1em;
 content: "only $5 >> ";
-}
+ent: "only $5 >> ";
+} */
 
