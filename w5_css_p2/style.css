@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto&family=Lobster&display=swap");
+/* @import url("https://fonts.googleapis.com/css2?family=Roboto&family=Lobster&display=swap");
 
 * {
   margin: 0;
@@ -61,11 +61,12 @@ body {
     background-color: #000;
     position: sticky;
     top: 0;
-}
+} */
 
 
 /*/////////////////////////////*/
 
+html {scroll-behavior: smooth;}
 
 section {
     height: 100vh;
@@ -84,5 +85,28 @@ header,footer {
 
 header {
     position: sticky;
-    top: 00;
+    top: 0;
+}
+
+footer {
+    background-color: black;
+    position: sticky;
+    bottom: 0;
+    font-size: 3rem;
+}
+
+
+a:visited {
+    color: white;
+}
+
+ .social {
+    color: white;
+    background-color: royalblue;
+    font-size: inherit;
+    padding: 1rem;
+    position: fixed;
+    top: 30%;
+    left: 0;
+    z-index: 1;
 }
