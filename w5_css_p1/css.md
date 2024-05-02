@@ -18,3 +18,7 @@ The inline block is hybrid it will help allow you to put some properiteston ther
 
   block level element stack on each other and always create a new line, they have an auto width  of 100 percent of what they have given 
 
+FLoat use to be created for column because there wasnt any other method created yet 
+
+Float are used to float things to the left and right and you can wrao text around it and you can use floats for a container just remember to all {display:flow-root}
+so it can contain the full float element
