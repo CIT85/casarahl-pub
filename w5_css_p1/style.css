@@ -7,8 +7,21 @@ body {
 
 
 
+p {
+    background-color: lightgrey;
+   
+
+}
 
 
+.oppsite {
+    display: inline-block;
+    background-color: black;
+    color: whitesmoke;
+    margin-top: 100px;
+    height: 200px;
+ padding: 4rem;
+}
 
 
 
