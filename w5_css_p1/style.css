@@ -9,16 +9,38 @@ body {
 /* column-count: 4;
 column-width: 250px; */
 
-column: 4 250px;
+columns: 4 250px;
 column-rule: 3px solid black;
 column-gap: 3rem;
+
+}
+
+.column {
+    margin-top: 0;
+
+}
+
+.column h2 {
+    margin-top: 0;
+    background-color: #333;
+    color: white;
+    padding: 1rem;
+    break-inside:avoid;
+    break-before: column;
+}
+
+ .column .quote {
+    margin-top: 2rem;
+    font-size: 3rem;
+    text-align: center;
+    color: black;
+    column-span: all;
 }
 
 
-
-
-
-
+.nowrap {
+    white-space: nowrap;
+}
 
 
 
