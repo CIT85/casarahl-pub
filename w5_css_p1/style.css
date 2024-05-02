@@ -5,7 +5,14 @@ body {
   font-size: 1.5rem;
 }
 
+.column {
+/* column-count: 4;
+column-width: 250px; */
 
+column: 4 250px;
+column-rule: 3px solid black;
+column-gap: 3rem;
+}
 
 
 
