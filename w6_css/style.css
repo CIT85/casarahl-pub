@@ -35,10 +35,16 @@ body {
     justify-content: flex-start;
     align-items: center;
     gap: 30px;
+
+    background-color: rgb(251, 210, 156);
+    background-image:url(../w6_css/img/maps.png);
+background-repeat:repeat;
+background-size: cover;
 }
 
 .h1 {
     font-size: 500%;
+    color: white;
 }
 
 .profile-pic-figure {
