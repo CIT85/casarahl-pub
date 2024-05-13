@@ -1,37 +1,57 @@
 @import url("https://fonts.googleapis.com/css2?family=Nunito&display=swap");
 
-/* begin reset */
+/* || RESET */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
- img {display:block} 
+/* || GENERAL STYLES */
+body {
+  font: 1.5rem "Nunito", sans-serif;
+  min-height: 100vh;
+}
+
+
+
+
+
+
+/* @import url("https://fonts.googleapis.com/css2?family=Nunito&display=swap");
+
+/* begin reset */
+/* * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ img {display:block}  */
 /* End reset*/
 
 /* utility classes */
-.nowrap {
+/* .nowrap {
     white-space: nowrap;
 }
 
 .offscreen {
     position: absolute;
     left: -10000px;
-}
+} */
 
 /* End utility classes */
 
-
+/* 
 body {
   font-family: "Nunito", sans-serif;
-  min-height: 100vh;
+  min-height: 100vh; */
  /*  background-color: aliceblue;
   background-image:url("../w6_css/img/bubbles.pgn.png"),       
 linear-gradient(to left,steelblue,white);
 background-repeat: repeat-y, no-repeat;
 background-position:  right,center; */
-background-size: 20%,auto;
+/* background-size: 20%,auto;
 background: repeat-y right center url("../w6_css/img/bubbles.pgn.png"),no-repeat linear-gradient(to left, steelblue,white);
 background-size: 20%,auto;
 }
@@ -59,12 +79,12 @@ background-size: cover;
 .h1 {
     font-size: 500%;
     color: aliceblue;
-    text-shadow: 2PX 2PX 5PX black;
+    text-shadow: 2PX 2PX 5PX black; */
 
    /*  background-color: hsla(0, 0%, 2%, 0.403);
     padding: 0.25rem;
     border-radius: 35%; */
-}
+/* }
 
 .profile-pic-figure {
     width: 35%;
@@ -97,4 +117,4 @@ background-size: cover;
      text-transform: uppercase;
      -webkit-background-clip: text; 
      background-clip: text;
-     color: transparent;
+     color: transparent; */ 
