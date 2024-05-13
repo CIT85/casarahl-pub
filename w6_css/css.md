@@ -11,3 +11,4 @@
    and always use a image twice as big as what youre planning on displaying. 
 
 
+What does dave mean by fallback?
