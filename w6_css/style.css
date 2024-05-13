@@ -27,6 +27,15 @@ body {
   font-family: "Nunito", sans-serif;
   min-height: 100vh;
 }
+.container {
+    background-color: rgb(251, 210, 156);
+    background-image:url(../w6_css/img/maps.png); 
+
+background-repeat:repeat;
+background-position:top;
+background-size: cover;
+
+}
 
 .hero {
     border-bottom: 2px solid black;
@@ -35,16 +44,18 @@ body {
     justify-content: flex-start;
     align-items: center;
     gap: 30px;
-
-    background-color: rgb(251, 210, 156);
-    background-image:url(../w6_css/img/maps.png);
-background-repeat:repeat;
-background-size: cover;
+    background-color: hsla(0, 0%, 0%, 0.25);
+  
 }
 
 .h1 {
     font-size: 500%;
-    color: white;
+    color: aliceblue;
+    text-shadow: 2PX 2PX 5PX black;
+
+   /*  background-color: hsla(0, 0%, 2%, 0.403);
+    padding: 0.25rem;
+    border-radius: 35%; */
 }
 
 .profile-pic-figure {
