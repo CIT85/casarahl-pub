@@ -32,8 +32,7 @@ body {
 }
 
 
-header,
-footer {
+header,footer {
   position: sticky;
   background-color: #1e293b;
   color: whitesmoke;
@@ -53,13 +52,16 @@ nav {
   justify-content: space-evenly;
 }
 
-nav a, 
-nav a:visited {
+nav a:any-link {
     color: #000;
 }
 
-nav a:hover, nav a:focus {
+nav :is(a:hover, a:focus) {
     color: hsla(0 , 0%, 20%, 0.6);
+}
+
+nav a:active {
+    color: red;
 }
 
 main {
@@ -89,6 +91,10 @@ footer {
     align-items: center;
 }
 
+.card:target {
+    border: 2px solid rebeccapurple;
+}
+
 .card figure {
     display: flex;
     flex-flow: column nowrap;
@@ -98,6 +104,10 @@ footer {
 .card img {
     border: 5px double #333;
     border-radius: 50%;
+}
+
+.card img:not([alt] ) {
+    border: 10px solid red;
 }
 
 .card figcaption {
