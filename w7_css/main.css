@@ -23,7 +23,7 @@ body {
   font: 1.5rem "Nunito", sans-serif;
   min-height: 100vh;
 
-  background-color: var(--BGCOLOR;
+  background-color: var(--BGCOLOR);
   background-image: radial-gradient( var(--RADIAL-COLOR), var(--BGCOLOR));
   display: flex;
   flex-direction: column;
