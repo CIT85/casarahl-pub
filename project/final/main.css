@@ -1,0 +1,154 @@
+html {
+    font-size: large;
+}
+
+
+
+body {
+    background-color: #074388;
+    color: #F7F3E3;
+}
+
+header, footer {
+    background-color: #0C5341;
+    color: #F7F3E3;
+
+}
+header { 
+    margin:auto;
+ text-align: center;  
+ top: 0;    
+}
+
+
+footer {
+    border-top: 0.1rem solid ;
+    text-align: center;
+    bottom: 0;
+}
+.float-right {
+    float: inline-end;
+    text-align: center; }
+
+.columns {
+    column-count: 3
+}
+
+.columns-2 {
+    column-count: 3;
+}
+
+.columns-3 {
+    column-count: 3;
+}
+
+.image2 {
+display: inline-block;
+}
+
+.savingformatting {
+    padding: 1.5rem;
+}
+
+.centers { 
+margin: auto;
+display: block;
+text-align: center;
+}
+
+.paddingbottom {
+   margin-bottom: 5.5rem;
+}
+ul li { 
+    list-style-position: inside;
+}
+ 
+li {
+    display: inline;
+    padding:0.5rem;
+}
+
+a {
+    color: #F7F3E3;
+}
+a:visited {
+    color:gold ;
+}
+
+
+a:hover {
+    color: greenyellow;
+}
+
+table {
+   border-collapse: collapse;
+   border: 3px solid gold;
+   margin: 1.5rem;
+   padding: 3.5rem;
+}
+
+td, th {
+    border: 3px solid gold;
+}
+
+
+.row {
+    display: flex;
+    flex-direction: row;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    background-color:#087228;
+    flex-wrap: wrap;
+    border: 2px solid white;
+}
+
+/* Extra small devices (phones, < 576px) */
+@media (min-width: 560px) {
+   body {
+    background-color: aqua;
+    background-image: radial-gradient(rgb(225, 131, 131),gold);
+   }
+  }
+  
+  /* Small devices (phones, >= 576px) */
+  @media (min-width: 576px) {
+  body {
+    background-color: purple;
+    background-image: radial-gradient(rgb(124, 109, 109),blue);
+  }
+  }
+  
+  /* Medium devices (tablets, >= 768px) */
+  @media (min-width: 768px) {
+    body {
+        background-color: rgb(205, 64, 125);
+        background-image: radial-gradient(red,gold);
+      }
+  }
+  
+  /* Large devices (desktops, >= 992px) */
+  @media (min-width: 992px) {
+    body {
+        background-color: rgb(231, 4, 159);
+        background-image: radial-gradient(rgb(181, 90, 128),rgb(202, 19, 95));
+      }
+  }
+  
+  /* Extra large devices (large desktops, >= 1200px) */
+  @media (min-width: 1200px) {
+    body {
+        background-color: rgb(94, 83, 212);
+        background-image: radial-gradient(rgb(121, 110, 110),rgb(39, 62, 4));
+      }
+  }
+  
+  /* 2 Extra large devices (large desktops, >= 1400px) */
+  @media (max-width: 1400px) {
+    body {
+        background-color: rgb(235, 168, 10);
+        background-image: radial-gradient (lightgrey,aqua);
+      } 
+    }
